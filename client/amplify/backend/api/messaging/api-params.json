@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/messaging",
+            "lambdaFunction": "messaging",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "messaging",
+    "apiName": "messaging",
+    "functionArns": [
+        {
+            "lambdaFunction": "messaging"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-bandwidthmessaging-dev-23753-authRole",
+        "unAuthRoleName": "amplify-bandwidthmessaging-dev-23753-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "messaging",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

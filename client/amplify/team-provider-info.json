@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-bandwidthmessaging-dev-23753-authRole",
+            "UnauthRoleArn": "arn:aws:iam::136453361166:role/amplify-bandwidthmessaging-dev-23753-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::136453361166:role/amplify-bandwidthmessaging-dev-23753-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-bandwidthmessaging-dev-23753-deployment",
+            "UnauthRoleName": "amplify-bandwidthmessaging-dev-23753-unauthRole",
+            "StackName": "amplify-bandwidthmessaging-dev-23753",
+            "StackId": "arn:aws:cloudformation:us-east-1:136453361166:stack/amplify-bandwidthmessaging-dev-23753/898b5df0-0e65-11eb-ab4c-0ec9495d5707",
+            "AmplifyAppId": "d7t31kkavma52"
+        },
+        "categories": {
+            "auth": {
+                "bandwidthmessagingfb9caf7d": {}
+            }
+        }
+    }
+}
